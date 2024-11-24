@@ -9,9 +9,24 @@ export const useCounterStore = defineStore('counter', () => {
 
   function calculate(){
     console.log("Exec");
-    ratingValue.value.safety=thisLane.value.ArtDesRadwegs.werte[0]+thisLane.value.weiteDesWegsProRichtung.werte[0]+thisLane.value.Belag.werte[0]+thisLane.value.Belagszustand.werte[0]+thisLane.value.VerkehrsaufkommenNebenDemRadweg.werte[0]+thisLane.value.VerkehrsaufkommenAufDemRadweg.werte[0]
-    ratingValue.value.speed=thisLane.value.ArtDesRadwegs.werte[1]+thisLane.value.weiteDesWegsProRichtung.werte[1]+thisLane.value.Belag.werte[1]+thisLane.value.Belagszustand.werte[1]+thisLane.value.VerkehrsaufkommenNebenDemRadweg.werte[1]+thisLane.value.VerkehrsaufkommenAufDemRadweg.werte[1]
-    ratingValue.value.comfort=thisLane.value.ArtDesRadwegs.werte[2]+thisLane.value.weiteDesWegsProRichtung.werte[2]+thisLane.value.Belag.werte[2]+thisLane.value.Belagszustand.werte[2]+thisLane.value.VerkehrsaufkommenNebenDemRadweg.werte[2]+thisLane.value.VerkehrsaufkommenAufDemRadweg.werte[2]
+    ratingValue.value.safety=thisLane.value.ArtDesRadwegs.werte[0]
+    +thisLane.value.weiteDesWegsProRichtung.werte[0]
+    +thisLane.value.Belag.werte[0]
+    +thisLane.value.Belagszustand.werte[0]
+    +thisLane.value.VerkehrsaufkommenNebenDemRadweg.werte[0]
+    +thisLane.value.VerkehrsaufkommenAufDemRadweg.werte[0]
+    ratingValue.value.speed=thisLane.value.ArtDesRadwegs.werte[1]
+    +thisLane.value.weiteDesWegsProRichtung.werte[1]
+    +thisLane.value.Belag.werte[1]
+    +thisLane.value.Belagszustand.werte[1]
+    +thisLane.value.VerkehrsaufkommenNebenDemRadweg.werte[1]
+    +thisLane.value.VerkehrsaufkommenAufDemRadweg.werte[1]
+    ratingValue.value.comfort=thisLane.value.ArtDesRadwegs.werte[2]
+    +thisLane.value.weiteDesWegsProRichtung.werte[2]
+    +thisLane.value.Belag.werte[2]
+    +thisLane.value.Belagszustand.werte[2]
+    +thisLane.value.VerkehrsaufkommenNebenDemRadweg.werte[2]
+    +thisLane.value.VerkehrsaufkommenAufDemRadweg.werte[2]
   }
 
   function updateRatingValue(safety,speed,comfort){

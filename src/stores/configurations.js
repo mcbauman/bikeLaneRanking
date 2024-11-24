@@ -40,7 +40,7 @@ export const rating=[
             },
             {
                 title:"Fahrrad- und Fußweg",
-                werte:[9,9,10]
+                werte:[9,9,9]
             }
         ]
     },

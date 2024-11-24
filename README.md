@@ -1,4 +1,12 @@
-# bikeLaneRanking
+# StraßenArt
+    30 Zone
+    Stadt
+        -Radweg
+        -gemischterRad-Fußweg
+        -Radspuhr
+        -Schutzstreifen
+        -
+    Landstraße
 
 This template should help get you started developing with Vue 3 in Vite.
 
